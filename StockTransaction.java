@@ -20,10 +20,10 @@ public class StockTransaction {
         double profit = amountReceived - saleCommission - amountPaid - purchaseCommission;
 
         // Output results
-        System.out.printf("Amount paid for the stock: $%.2f%n", amountPaid);
-        System.out.printf("Commission paid when buying: $%.2f%n", purchaseCommission);
-        System.out.printf("Amount sold the stock for: $%.2f%n", amountReceived);
-        System.out.printf("Commission paid when selling: $%.2f%n", saleCommission);
-        System.out.printf("Profit after commissions: $%.2f%n", profit);
+        System.out.printf("Amount paid for the stock: $" + amountPaid);
+        System.out.printf("Commission paid when buying: $" + purchaseCommission);
+        System.out.printf("Amount sold the stock for: $" + amountReceived);
+        System.out.printf("Commission paid when selling: $" + saleCommission);
+        System.out.printf("Profit after commissions: $" + profit);
     }
 }
